@@ -1,0 +1,132 @@
+
+  
+  .index{
+    background-image:url("imagenes/fondo.jpg");
+    background-repeat: space;
+    background-size:cover;
+    background-position: center;
+    color: rgb(255, 255, 255);}
+  
+  
+  .texto{
+    width: 500px,200px;
+    
+  }
+  
+  .logo{
+      width: 150px;
+      margin: auto;
+}
+
+ 
+
+h1{
+  background-color: rgba(135, 138, 141, 0.493);
+  border-radius: 15px
+}
+
+.fab{
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  margin: 5px;
+  background-color: rgba(135, 138, 141, 0.493);
+  border-radius: 15px
+}
+
+
+/*-------------------PANTALLA INGRESO------------------------------------------------>*/
+
+.ingreso{
+  background-color: black;
+  background-size:cover;
+}
+
+
+.disponible{
+  width: 850px;
+  margin: auto;
+  transition: transform .4s;
+}
+
+.disponible:hover{
+  width: 850px;
+  transform: scale(1.1)
+}
+
+
+.mis{
+  width: 850px;
+  margin: auto;
+  transition: transform .4s;
+}
+
+.mis:hover{
+  width: 850px;
+  transform: scale(1.1)
+}
+
+/*-------------------PANTALLA TORNEOS DISPONIBLES------------------------------------------------>*/
+
+  
+
+
+#disponibles{
+  background-color: rgba(0, 0, 0, 0.644);
+}
+
+.tarjetas{
+   margin-top: 50px;
+   margin-left: 50px
+}
+
+/*-------------------BASE ------------------------------------------------->*/
+
+.fondo_base{
+    background-image:url("imagenes/fondo_mis.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:inherit;
+    
+}
+
+/*-------------------------MIS TORNEOS------------------------------------------------->*/
+.resultados{
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.589);
+  margin: 50px;
+  border-radius: 20px;
+  padding-left: 75px
+}
+
+
+#titulo_mis_torneos{
+  font-size: 70px;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.007);
+ 
+}
+
+#logo_barra{
+  width: 100px
+}
+
+
+
+.barra_deco{
+  color:white;
+  font-size: 20px;  
+}
+
+#barra{
+margin-top: -20px;
+}
+
+#nombre_perfil{
+  color:rgb(241, 207, 10);
+  margin-left: 900px;
+  padding-top: 0px
+}
+
+#boton_barra{
+  margin-left: 100px
+}
