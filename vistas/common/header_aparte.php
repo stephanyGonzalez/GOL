@@ -22,6 +22,10 @@
                     <li class="nav-item mt-3">
                       <a class="nav-link" href="index.php?m=mis_torneos"><div class="barra_deco">MIS TORNEOS</div></a>
                     </li>
+
+                    <li class="nav-item mt-3">
+                      <a class="nav-link" href="index.php?m=canchas"><div class="barra_deco">CANCHAS INFO </div></a>
+                    </li>
                     
                   <div class="btn-group" id="boton_barra">
 

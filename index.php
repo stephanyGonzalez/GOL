@@ -26,8 +26,8 @@ if( isset($_GET["m"])){
         $modulo = "logout";
         break;
 
-     case "noticias":
-         $modulo = "noticias";
+     case "canchas":
+         $modulo = "canchas";
          break;
 
      case "mis_torneos":
