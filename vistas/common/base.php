@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="vendor\bootstrap\css\bootstrap.min.css">
 
-    <link rel="stylesheet" href="stilo.css">    
+    <link rel="stylesheet" href="Stylo.css">    
     <script src="https://kit.fontawesome.com/e22ad3f821.js"></script>
 
       <title>base</title>

@@ -43,25 +43,35 @@ h1{
 
 
 .disponible{
-  width: 850px;
+  width: 540px;
   margin: auto;
   transition: transform .4s;
+  border-color: rgb(241, 207, 10);
+  border-radius: 30px;
+  border-style: solid;
+  mask-border-width: 2px;
+  margin-right: -50px;
 }
 
 .disponible:hover{
-  width: 850px;
+  width: 540px;
   transform: scale(1.1)
 }
 
 
 .mis{
-  width: 850px;
+  width: 540px;
   margin: auto;
   transition: transform .4s;
+  border-color: rgb(241, 207, 10);
+  border-radius: 30px;
+  border-style: solid;
+  mask-border-width: 2px;
+  margin-left: -50px;
 }
 
 .mis:hover{
-  width: 850px;
+  width: 540px;
   transform: scale(1.1)
 }
 
@@ -107,18 +117,15 @@ h1{
 }
 
 #logo_barra{
-  width: 100px
-}
-
-
-
-.barra_deco{
-  color:white;
-  font-size: 20px;  
+  width: 200px;
+  float: left;
+  margin-top: 5px;margin-left: -25px;
 }
 
 #barra{
 margin-top: -20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
 }
 
 #nombre_perfil{
@@ -131,6 +138,33 @@ margin-top: -20px;
   margin-left: 100px
 }
 
-.tarjetas_canchas{
+#tarjetas_canchas{
   background-color: blueviolet
 }
+
+#torneo_inscripto{
+  background-color: rgb(241, 207, 10);
+  font-size: 35px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fecha_torneo{  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.barra_deco{
+  border-color: rgb(241, 207, 10);
+  border-radius: 30px;
+  border-style: solid;
+  width: 220px;
+background-color:rgb(241, 207, 10);
+color: rgb(0, 0, 0);
+text-align: center;}

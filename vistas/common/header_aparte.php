@@ -2,8 +2,8 @@
             
   <div class="row">
 
-      <div class="col">  
-              <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="barra">
+      <div class="col-2">  
+              <nav class="navbar navbar-expand-lg " id="barra">
               <div class="col">
                   <a class="navbar-brand" href="#"> <img src="imagenes/lOGO.png" alt="" id="logo_barra" >  </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,19 +11,19 @@
                   </button>
       </div>
     
-      <div class="col">
+      <div class="col-10">
                 <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
+                  <ul class="navbar-nav navbar-dark bg-dark">
 
-                    <li class="nav-item mt-3 ">
+                    <li class="nav-item mt-3 col-sm-auto ">
                         <a class="nav-link" href="index.php?m=torneos_disponibles"> <div class="barra_deco"> TORNEOS DISPONIBLES </div></a>
                     </li>
 
-                    <li class="nav-item mt-3">
+                    <li class="nav-item mt-3 col-sm-auto ">
                       <a class="nav-link" href="index.php?m=mis_torneos"><div class="barra_deco">MIS TORNEOS</div></a>
                     </li>
 
-                    <li class="nav-item mt-3">
+                    <li class="nav-item mt-3 col-sm-auto ">
                       <a class="nav-link" href="index.php?m=canchas"><div class="barra_deco">CANCHAS INFO </div></a>
                     </li>
                     
@@ -33,7 +33,7 @@
                     if ( isset($_SESSION["usuario"]) ){
                   ?>
 
-                    <button type="button" class="btn btn-warning  btn-lg  dropdown-toggle"
+                    <button type="button" class="btn btn-warning   dropdown-toggle"
                             data-toggle="dropdown"><?=$_SESSION["usuario"]?> <span class="caret"></span>
                     </button>
 
