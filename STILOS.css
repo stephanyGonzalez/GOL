@@ -168,3 +168,11 @@ body{
 background-color:rgb(241, 207, 10);
 color: rgb(0, 0, 0);
 text-align: center;}
+
+
+
+.titulo_torneo_inscripto{
+  text-align: center;
+  margin-top: 20px;
+}
+

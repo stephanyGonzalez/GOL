@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="vendor\bootstrap\css\bootstrap.min.css">
 
-    <link rel="stylesheet" href="Stylo.css">    
+    <link rel="stylesheet" href="STILOS.css">    
     <script src="https://kit.fontawesome.com/e22ad3f821.js"></script>
 
       <title>base</title>
@@ -35,6 +35,17 @@
     ?>
         <div class=" m-3 alert alert-danger alert-dismissible fade show" role="alert">
           <strong>Usuario y/o contraseña no validos. </strong>Intente nuevamente.
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>        
+      <?php } ?>
+
+      <?php
+      if ( isset( $_GET["a"]) ){
+    ?>
+        <div class=" m-3 alert alert-danger alert-dismissible fade show" role="alert">
+          <strong>inscripto satisfactoriamente </strong>Intente nuevamente.
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>

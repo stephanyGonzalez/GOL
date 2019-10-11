@@ -120,10 +120,34 @@
                         
 
 
-                        $conexion->query("INSERT INTO $tabla_jugador (id_equipo,id_posiciones,nombre,email,password) values ('$equipos','$posiciones','$nombre','$email','$password')");                               
+                        $conexion->query("INSERT INTO $tabla_jugador (id_equipo,id_posiciones,nombre,email,password) values ('$equipos','$posiciones','$nombre','$email','$password')"); 
+                        
+                        if($conexion ==true){
+                          header("Location: index.php?a=0");
 
-                      }
-                  ?>
+                        }
+                        }
+
+                      ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       
+                
 
                     
 
